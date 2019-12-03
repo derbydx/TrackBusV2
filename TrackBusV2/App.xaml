@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="TrackBusV2.App">
+    <Application.Resources>
+        <ControlTemplate x:Key="plantilla1">
+            <StackLayout Orientation="Vertical" Padding="10,50,10,10" BackgroundColor="AliceBlue">
+                <!--<Image Source="bus3.jpg" Aspect="AspectFill" />-->
+                <!--<BoxView Color="Gray" Opacity="0.7"></BoxView>-->
+                <ContentView HorizontalOptions="Center">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto" />
+                            <RowDefinition Height="auto" />
+                        </Grid.RowDefinitions>
+                        <StackLayout Grid.Row="0" Orientation="Vertical" HorizontalOptions="Center" Padding="30,60">
+
+                            <Image Source="busico.png" WidthRequest="100" HeightRequest="100" />
+                            <Label Text="TrackBus UTECO" FontSize="Title"></Label>
+
+                        </StackLayout>
+                        <StackLayout Grid.Row="1" Orientation="Vertical">
+                            <ContentView />
+                            <ContentPresenter />
+                        </StackLayout>
+                    </Grid>
+                </ContentView>
+
+            </StackLayout>
+        </ControlTemplate>
+        <ResourceDictionary>
+            <Style TargetType="Entry" x:Key="Ent1">
+                <Setter Property="FontSize" Value="20"></Setter>
+                <Setter Property="PlaceholderColor" Value="Black"></Setter>
+
+
+            </Style>
+
+            <Style TargetType="Button" x:Key="Btn1">
+                <Setter Property="FontSize" Value="20"></Setter>
+                <Setter Property="TextColor" Value="Black"></Setter>
+                <Setter Property="CornerRadius" Value="20"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+                <Setter Property="BackgroundColor" Value="White"></Setter>
+            </Style>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

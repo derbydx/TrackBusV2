@@ -130,4 +130,7 @@
       <Name>TrackBusV2</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\busico.png" />
+  </ItemGroup>
 </Project>

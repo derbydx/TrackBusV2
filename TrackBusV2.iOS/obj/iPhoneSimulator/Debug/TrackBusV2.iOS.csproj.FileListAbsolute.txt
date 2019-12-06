@@ -56,3 +56,4 @@
 /Users/derbymartinez/Projects/TrackBusV2/TrackBusV2.iOS/obj/iPhoneSimulator/Debug/TrackBusV2.iOS.csproj.CopyComplete
 /Users/derbymartinez/Projects/TrackBusV2/TrackBusV2.iOS/obj/iPhoneSimulator/Debug/TrackBusV2.iOS.exe
 /Users/derbymartinez/Projects/TrackBusV2/TrackBusV2.iOS/obj/iPhoneSimulator/Debug/TrackBusV2.iOS.pdb
+/Users/derbymartinez/Projects/TrackBusV2/TrackBusV2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.2.2/optimized/busico.png

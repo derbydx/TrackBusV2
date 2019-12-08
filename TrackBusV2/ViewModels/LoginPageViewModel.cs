@@ -39,7 +39,7 @@ namespace TrackBusV2.ViewModels
                 return;
             }
             Application.Current.MainPage
-                .Navigation.PushModalAsync(new NavigationPage(new MainPaginaTab()));
+                .Navigation.PushModalAsync(new NavigationPage(new ListaRutasPage()));
         }
 
         private void Register()

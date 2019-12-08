@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrackBusV2.Views.ListaRutasPage"
+             >
+    <ListView x:Name="MyListView"
+              ItemsSource="{Binding AutobusList}"
+               CachingStrategy="RecycleElement"
+              HasUnevenRows="False">
+     
+    <ListView.ItemTemplate>
+      <DataTemplate>
+       <ViewCell>
+                    <StackLayout Orientation="Horizontal" Padding="10">
+                        <Image Source="{Binding Image}" WidthRequest="50" HeightRequest="50"></Image>
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="{Binding Chofer}" FontSize="Large" TextColor="Orange"
+                                   FontAttributes="Bold"/>
+                            <Label Text="{Binding Detalle}" FontSize="Medium" TextColor="Black" />
+
+                        </StackLayout>
+                    </StackLayout>
+
+                </ViewCell>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+    
+    </ListView>
+</ContentPage>

@@ -70,7 +70,7 @@ namespace TrackBusV2.ViewModels
             { Application.Current.MainPage.DisplayAlert("Error", "Datos en Blanco", "Ok"); return; }
 
             Application.Current.MainPage
-                .Navigation.PushAsync(new NavigationPage(new MainPaginaTab()));
+                .Navigation.PushAsync(new NavigationPage(new ListaRutasPage()));
         }
         #endregion
 

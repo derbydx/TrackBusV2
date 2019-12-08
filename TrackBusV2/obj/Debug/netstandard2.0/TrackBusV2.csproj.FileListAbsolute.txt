@@ -4,10 +4,9 @@
 /Users/derbymartinez/Projects/TrackBusV2/TrackBusV2/bin/Debug/netstandard2.0/TrackBusV2.pdb
 /Users/derbymartinez/Projects/TrackBusV2/TrackBusV2/obj/Debug/netstandard2.0/TrackBusV2.csprojAssemblyReference.cache
 /Users/derbymartinez/Projects/TrackBusV2/TrackBusV2/obj/Debug/netstandard2.0/App.xaml.g.cs
-/Users/derbymartinez/Projects/TrackBusV2/TrackBusV2/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/derbymartinez/Projects/TrackBusV2/TrackBusV2/obj/Debug/netstandard2.0/Views/ListaRutasPage.xaml.g.cs
 /Users/derbymartinez/Projects/TrackBusV2/TrackBusV2/obj/Debug/netstandard2.0/Views/LoginPage.xaml.g.cs
 /Users/derbymartinez/Projects/TrackBusV2/TrackBusV2/obj/Debug/netstandard2.0/Views/MainPaginaTab.xaml.g.cs
-/Users/derbymartinez/Projects/TrackBusV2/TrackBusV2/obj/Debug/netstandard2.0/Views/MyTabbedPage.xaml.g.cs
 /Users/derbymartinez/Projects/TrackBusV2/TrackBusV2/obj/Debug/netstandard2.0/Views/RegisterPage.xaml.g.cs
 /Users/derbymartinez/Projects/TrackBusV2/TrackBusV2/obj/Debug/netstandard2.0/TrackBusV2.AssemblyInfoInputs.cache
 /Users/derbymartinez/Projects/TrackBusV2/TrackBusV2/obj/Debug/netstandard2.0/TrackBusV2.AssemblyInfo.cs

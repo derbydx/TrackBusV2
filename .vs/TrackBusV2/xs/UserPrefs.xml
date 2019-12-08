@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{AFFF5D6E-7D00-445D-8A1C-8362880C8C8D}|Default">
   <MonoDevelop.Ide.ItemProperties.TrackBusV2.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.88496D03-3864-4028-9D9F-29B51E5CEA65" />
   <MonoDevelop.Ide.ItemProperties.TrackBusV2.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TrackBusV2/Views/MainPaginaTab.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TrackBusV2/Views/ListaRutasPage.xaml">
     <Files>
-      <File FileName="TrackBusV2/Views/MainPaginaTab.xaml" Line="1" Column="1" />
+      <File FileName="TrackBusV2/Views/ListaRutasPage.xaml" Line="14" Column="16" />
+      <File FileName="TrackBusV2/ViewModels/ListViewViewModel.cs" Line="28" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +13,8 @@
             <Node name="TrackBusV2" expanded="True">
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="MainPaginaTab.xaml" selected="True" />
+                <Node name="ListaRutasPage.xaml" expanded="True" selected="True" />
+                <Node name="LoginPage.xaml" expanded="True" />
               </Node>
             </Node>
             <Node name="TrackBusV2.iOS" expanded="True">
